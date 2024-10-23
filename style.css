@@ -1,19 +1,36 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .top-container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #1f2937;
+    padding: 0px 150px 100px 200px;
 }
 
 .header {
     color: #f9faf8;
     display: flex;
-    flex-direction: row;
+    width: 100%;
     justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.logo {
+    align-self: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.herocon {
+max-width: 40%;
+align-self: flex-end;
+padding-right: 56px;
 }
 
 .hero-text {
@@ -23,15 +40,28 @@ body {
 }
 
 .hero-subtext,
-.links-head {
+.links {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.links-head{
+button {
+max-width: 128px;
+background-color: #3882f6;
+border-radius: 8px;
+padding: 8px 32px;
+color: #f9faf8;
+font-weight: bold;
+margin: 12px 0px;
+font-size: medium;
+border: none;
+}
+
+.links{
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding-right: 12px;
+    gap: 16px;
 }
 
 a {
@@ -74,6 +104,6 @@ color: #1f2937;
 }
 
 img {
-    max-height: 300px;
-    max-width: 300px;
+    align-self: flex-end;
+    max-width: 520px;
 }
