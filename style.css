@@ -126,6 +126,23 @@ li {
 
 .third-container {
 background-color: #e5e7eb;
+padding: 128px 300px 120px 250px;
+}
+
+.quote{
+    padding-left: 36px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#thor {
+font-size: x-large;
+font-weight: bold;
+display: flex;
+width: 100%;
+justify-content: flex-end;
+padding-top: 12px;
 }
 
 .fourth-container {
@@ -134,12 +151,6 @@ background-color: #e5e7eb;
 
 .footer {
 background-color: #1f2937;
-}
-
-.quote{
-font-style: italic;
-font-size: 36px;
-color: #1f2937;
 }
 
 .hero-img {
