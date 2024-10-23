@@ -5,11 +5,15 @@ body {
 
 .top-container{
     display: flex;
+    flex-direction: column;
     background-color: #1f2937;
 }
 
 .header {
     color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .hero-text {
@@ -24,14 +28,31 @@ body {
     color: #e5e7eb;
 }
 
+.links-head{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
+    
+}
+
+li {
+    list-style-type: none;
 }
 
 
 .second-container{
 
+}
+
+.info {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .third-container {
