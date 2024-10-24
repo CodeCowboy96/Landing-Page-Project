@@ -3,6 +3,7 @@ body {
     flex: 1;
     flex-wrap: wrap;
     margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .top-container{
@@ -10,7 +11,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 0px 150px 100px 200px;
+    padding: 0px 150px 100px 120px;
 }
 
 .header {
@@ -25,6 +26,7 @@ body {
     align-self: center;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .herocon {
@@ -64,12 +66,13 @@ button {
     display: flex;
     flex-direction: row;
     padding-right: 12px;
-    gap: 16px;
+    gap: 24px;
 }
 
 .hero-img {
     align-self: flex-end;
     max-width: 520px;
+    border-radius: 12px;
 }
 
 a {
@@ -176,6 +179,7 @@ padding-top: 12px;
 #card-button {
     border-color: #e5e7eb;
     margin: auto;
+    border-style: solid;
 }
 
 .footer {
